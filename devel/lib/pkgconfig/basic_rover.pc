@@ -1,8 +1,1 @@
-prefix=/root/catkin_ws/devel
-
-Name: basic_rover
-Description: Description of basic_rover
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/root/catkin_ws/devel/.private/basic_rover/lib/pkgconfig/basic_rover.pc

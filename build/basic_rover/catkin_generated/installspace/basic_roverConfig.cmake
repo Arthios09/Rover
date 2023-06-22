@@ -68,7 +68,7 @@ set(basic_rover_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(basic_rover_SOURCE_PREFIX /root/catkin_ws/src/basic_rover)
-  set(basic_rover_DEVEL_PREFIX /root/catkin_ws/devel)
+  set(basic_rover_DEVEL_PREFIX /root/catkin_ws/devel/.private/basic_rover)
   set(basic_rover_INSTALL_PREFIX "")
   set(basic_rover_PREFIX ${basic_rover_DEVEL_PREFIX})
 else()
